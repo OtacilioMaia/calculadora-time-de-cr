@@ -5,6 +5,9 @@
 def soma(numero_a, numero_b):
     return numero_a + numero_b
     
+def divisao(numero_a, numero_b):
+    return numero_a/numero_b
+    
 numero_a = int(input("Digite o primeiro numero: "))
 operacao = input("Digite a operacao (+, -, * ou /): ")
 numero_b = int(input("Digite o segundo numero: "))
